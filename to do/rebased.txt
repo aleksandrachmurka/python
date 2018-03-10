@@ -1,0 +1,37 @@
+Zadanie zero – klawiaturowy t³umacz
+
+Przypomnijmy sobie jak wygl¹da tradycyjna klawiatura telefonu:
+
+-------------------
+|  1  |  2  |  3  |
+|     | ABC | DEF |
+-------------------
+|  4  |  5  |  6  |
+| GHI | JKL | MNO |
+-------------------
+|  7  |  8  |  9  |
+| PQRS| TUV | WXYZ|
+-------------------
+|  *  |  0  |  #  |
+|     |     |     |
+-------------------
+      
+
+Zdarza siê, ¿e niektórzy podaj¹ numer telefonu u¿ywaj¹c liter spod podanych cyfr. Napisz program który pomo¿e w wybieraniu takiego numeru.
+
+Twój program:
+
+    przyjmie dok³adnie jeden parametr z linii komend (s³owo do przet³umaczenia),
+    zwróci numer telefonu który nale¿y wybraæ, w takim samym formacie jak podany wczeœniej numer.
+
+Przyk³ad:
+
+$ ruby phone.rb 1-800-FLOWERS
+1-800-3569377
+$ ruby phone.rb 1-800-800
+1-800-800
+$ ruby phone.rb
+Proper usage:
+phone.rb number
+        
+
